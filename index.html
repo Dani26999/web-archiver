@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Download</title>
+  </head>
+  <body>
+    <h1>Specify downloading details:</h1>
+    <form action="/crawler" method="get">
+      URI: <input type="text" name="uri" ><br>
+      RecLevel: <input type="number" name="recLevel" min="0"><br>
+      MaxFiles: <input type="number" name="maxFiles" min="0"><br>
+      <input type="submit" value="Download">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
